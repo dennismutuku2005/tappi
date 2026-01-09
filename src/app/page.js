@@ -9,7 +9,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <div className="bg-tappi-purple text-white relative">
-        <main className="max-w-7xl mx-auto px-6 lg:px-8 pt-36 pb-20 lg:pt-40 lg:pb-28 overflow-hidden">
+        <main className="max-w-7xl mx-auto px-6 lg:px-8 pt-9 overflow-hidden">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
 
             {/* Left Content */}
@@ -26,9 +26,7 @@ export default function Home() {
 
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
                 <button className="w-full sm:w-auto bg-tappi-green text-white px-8 py-3.5 rounded-xl font-bold text-lg hover:bg-green-600 transition-all hover:-translate-y-1 shadow-[0_8px_30px_rgba(44,179,74,0.3)] flex items-center justify-center gap-2">
-                  {/* Android Icon roughly */}
-                  <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M17.523 15.3414C17.523 15.3414 17.502 15.3414 17.502 15.3414C17.476 15.3414 17.449 15.3414 17.425 15.3304C17.309 15.2834 1.83 6.0094 1.83 6.0094C1.529 5.8234 1.332 5.5014 1.332 5.1324C1.332 4.6064 1.579 4.2984 1.954 4.0924L17.202 12.3394C17.473 12.5514 17.581 12.9214 17.523 13.2504V15.3414ZM19.641 12.3854L21.572 13.5424C22.132 13.8804 22.132 14.8124 21.572 15.1504L18.868 16.7724L17.795 14.3984L19.641 12.3854ZM17.653 14.0844L8.411 18.0644L17.067 22.7664C17.348 22.9214 17.523 23.2194 17.523 23.5414V14.1564C17.523 14.1564 17.589 14.1194 17.653 14.0844Z" /></svg>
-                  Get on Android
+                 Get on Android
                 </button>
                 <button className="w-full sm:w-auto px-8 py-3.5 rounded-xl font-bold text-lg border border-white/20 hover:bg-white/5 transition-all hover:border-white/40 flex items-center justify-center gap-2">
                   Available on M-PESA
@@ -41,15 +39,15 @@ export default function Home() {
               {/* Background Glow */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-purple-600/30 blur-[80px] rounded-full pointer-events-none"></div>
 
-              <div className="relative z-10 w-[260px] lg:w-[280px] transform rotate-y-[-10deg] rotate-x-[5deg] hover:rotate-0 transition-transform duration-700 ease-out">
+              <div className="relative z-10 transform rotate-y-[-10deg] rotate-x-[5deg] hover:rotate-0 transition-transform duration-700 ease-out">
                 {/* 
                   Using similar image source as before. 
                   In a real scenario, I would ensure this matches the phone mockup exactly.
                 */}
                 <img
-                  src="/hero-phone.svg"
+                  src="/hero-phone.png"
                   alt="Tappi App Dashboard"
-                  className="w-full h-auto drop-shadow-2xl"
+                  className="w-full h-[60vh] md:h-[100vh] drop-shadow-2xl"
                 />
               </div>
             </ScrollReveal>
